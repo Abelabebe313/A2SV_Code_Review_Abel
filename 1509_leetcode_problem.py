@@ -6,8 +6,7 @@ class Solution:
         nums.sort()
         
         mini = float(inf)
-        for i in range(1,5):
-            # print(nums[n-i] , nums[4-i])   
+        for i in range(1,5):   
             mini = min(mini,(nums[n-i]-nums[4-i]))
             
         return mini
